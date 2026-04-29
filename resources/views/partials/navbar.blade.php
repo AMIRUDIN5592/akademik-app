@@ -14,7 +14,7 @@
                 <a class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}" href="{{ route('about') }}">
                     <i class="fas fa-info-circle"></i> About
                 </a>
-                <a class="nav-link {{ request()->routeIs('mahasiswa.*') ? 'active' : '' }}" href="{{ route('mahasiswa.form') }}">
+                <a class="nav-link {{ request()->routeIs('mahasiswa.*') ? 'active' : '' }}" href="{{ route('mahasiswa.index') }}">
                     <i class="fas fa-user-graduate"></i> Form Mahasiswa
                 </a>
                 

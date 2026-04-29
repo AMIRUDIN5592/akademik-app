@@ -25,6 +25,11 @@ class HomeController extends Controller
 
         return view('home', $data);
     }
+
+    public function update(Request $request)
+    {
+        // handle the logic for updating data
+    }
     public function about()
     {
         $data = [
@@ -36,4 +41,5 @@ class HomeController extends Controller
 
         return view('about', $data);
     }
+
 }

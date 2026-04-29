@@ -2,52 +2,91 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Mahasiswa;
 use Illuminate\Http\Request;
-use Illuminate\Validation\Rule;
-use Illuminate\Validation\Rules\File;
-use Illuminate\Validation\Rules\Password;
 
 class MahasiswaController extends Controller
 {
-    public function form()
+    /**
+     * Display a listing of the resource.
+     */
+    public function index()
     {
-        return view('mahasiswa.form');
+        $mahasiswa = Mahasiswa::latest()->get();
+
+        return view('mahasiswa.index', compact('mahasiswa'));
     }
 
-    public function proses(Request $request)
+    public function create()
+    {
+        return view('mahasiswa.create');
+    }
+
+
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(Request $request)
     {
         $validated = $request->validate([
-            'nama' => ['required', 'string', 'min:3', 'max:100'],
-            'email' => ['required', 'email'],
-            'umur' => ['required', 'integer', 'min:17'],
-            'username' => ['required', 'string', 'min:4', 'max:20', 'regex:/^[A-Za-z0-9_]+$/'],
-            'password' => [
-                'required',
-                'confirmed',
-                Password::min(8)->mixedCase()->letters()->numbers()->symbols(),
-            ],
-            'role' => ['required', Rule::in(['admin', 'staff', 'mahasiswa'])],
-            'tanggal_mulai' => ['required', 'date'],
-            'tanggal_selesai' => ['required', 'date', 'after:tanggal_mulai'],
-            'skills' => ['nullable', 'array'],
-            'skills.*' => ['string', 'in:PHP,Laravel,JavaScript,MySQL'],
-            // 'skills.*' => ['string', Rule::in(['PHP', 'Laravel', 'JavaScript', 'MySQL'])],
-            'cv' => ['required', File::types(['pdf', 'doc', 'docx'])->max('2mb')],
-            'foto' => ['nullable', File::image()->max('2mb')],
+            'nama' => 'required|min:3',
+            'email' => 'required|email|unique:mahasiswa,email',
+            'umur' => 'required|numeric|min:17',
+            'jurusan' => 'required',
         ]);
 
-        $data = $validated;
+        Mahasiswa::create($validated);
 
-        if ($request->hasFile('cv')) {
-            $data['cv'] = $request->file('cv')->getClientOriginalName();
-        }
+        return redirect()
+            ->route('mahasiswa.index')
+            ->with('success', 'Data mahasiswa berhasil ditambahkan.');
+    }
 
-        if ($request->hasFile('foto')) {
-            $data['foto'] = $request->file('foto')->getClientOriginalName();
-        }
 
-        unset($data['password']);
+    /**
+     * Display the specified resource.
+     */
+    public function show(Mahasiswa $mahasiswa)
+    {
+        return view('mahasiswa.show', compact('mahasiswa'));
+    }
 
-        return view('mahasiswa.hasil', compact('data'));
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function edit(Mahasiswa $mahasiswa)
+    {
+        return view('mahasiswa.edit', compact('mahasiswa'));
+    }
+
+    public function update(Request $request, Mahasiswa $mahasiswa)
+    {
+        $validated = $request->validate([
+            'nama' => 'required|min:3',
+            'email' => 'required|email|unique:mahasiswa,email,' . $mahasiswa->id,
+            'umur' => 'required|numeric|min:17',
+            'jurusan' => 'required',
+        ]);
+
+        $mahasiswa->update($validated);
+
+        return redirect()
+            ->route('mahasiswa.index')
+            ->with('success', 'Data mahasiswa berhasil diupdate.');
+    }
+
+
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy(Mahasiswa $mahasiswa)
+    {
+        $mahasiswa->delete();
+
+        return redirect()
+            ->route('mahasiswa.index')
+            ->with('success', 'Data mahasiswa berhasil dihapus.');
     }
 }
