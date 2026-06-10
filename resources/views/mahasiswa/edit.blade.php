@@ -40,6 +40,21 @@
                             <input type="text" name="jurusan" class="form-control"
                                 value="{{ old('jurusan', $mahasiswa->jurusan) }}">
                         </div>
+                        <div class="mb-3">
+                            <label class="form-label">Alamat</label>
+                            <input type="text" name="alamat" class="form-control"
+                                value="{{ old('alamat', $mahasiswa->alamat) }}">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">No. HP</label>
+                            <input type="text" name="no_hp" class="form-control"
+                                value="{{ old('no_hp', $mahasiswa->no_hp) }}">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Tanggal Lahir</label>
+                            <input type="date" name="tanggal_lahir" class="form-control"
+                                value="{{ old('tanggal_lahir', $mahasiswa->tanggal_lahir) }}">
+                        </div>
                         <button type="submit" class="btn btn-primary">
                             Update
                         </button>

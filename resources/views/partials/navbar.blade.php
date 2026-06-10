@@ -15,9 +15,11 @@
                     <i class="fas fa-info-circle"></i> About
                 </a>
                 <a class="nav-link {{ request()->routeIs('mahasiswa.*') ? 'active' : '' }}" href="{{ route('mahasiswa.index') }}">
-                    <i class="fas fa-user-graduate"></i> Form Mahasiswa
+                    <i class="fas fa-user-graduate"></i> Mahasiswa
                 </a>
-                
+                <a class="nav-link {{ request()->routeIs('mata-kuliah.*') ? 'active' : '' }}" href="{{ route('mata-kuliah.index') }}">
+                    <i class="fas fa-book"></i> Mata Kuliah
+                </a>
             </div>
         </div>
     </div>

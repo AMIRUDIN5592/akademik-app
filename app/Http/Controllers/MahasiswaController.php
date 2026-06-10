@@ -2,38 +2,64 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Jurusan;
+use App\Models\KartuMahasiswa;
 use App\Models\Mahasiswa;
 use Illuminate\Http\Request;
 
 class MahasiswaController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        $mahasiswa = Mahasiswa::latest()->get();
+        $mahasiswas = Mahasiswa::with([
+            'jurusan',
+            'kartuMahasiswa',
+            'mataKuliah'
+        ])->latest()->get();
 
-        return view('mahasiswa.index', compact('mahasiswa'));
+        return view('mahasiswa.index', compact('mahasiswas'));
     }
 
+    public function detail($id)
+    {
+        $mahasiswa = Mahasiswa::with([
+            'jurusan',
+            'kartuMahasiswa',
+            'mataKuliah'
+        ])->findOrFail($id);
+
+        return view('mahasiswa.detail', compact('mahasiswa'));
+    }
+
+    public function filterJurusan($kode)
+    {
+        $mahasiswas = Mahasiswa::with('jurusan')
+            ->whereHas('jurusan', function ($query) use ($kode) {
+                $query->where('kode_jurusan', $kode);
+            })
+            ->get();
+
+        return view('mahasiswa.index', compact('mahasiswas'));
+    }
+
+    //create mahasiswa
     public function create()
     {
-        return view('mahasiswa.create');
+        $jurusans = Jurusan::all();
+        $title = 'Tambah Mahasiswa';
+
+        return view('mahasiswa.create', compact('jurusans', 'title'));
     }
 
-
-
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'nama' => 'required|min:3',
-            'email' => 'required|email|unique:mahasiswa,email',
-            'umur' => 'required|numeric|min:17',
-            'jurusan' => 'required',
+            'jurusan_id' => ['required', 'exists:jurusans,id'],
+            'nim' => ['required', 'string', 'max:255', 'unique:mahasiswas,nim'],
+            'nama' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'email', 'max:255', 'unique:mahasiswas,email'],
+            'jenis_kelamin' => ['required', 'in:L,P'],
+            'alamat' => ['nullable', 'string'],
         ]);
 
         Mahasiswa::create($validated);
@@ -43,50 +69,23 @@ class MahasiswaController extends Controller
             ->with('success', 'Data mahasiswa berhasil ditambahkan.');
     }
 
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(Mahasiswa $mahasiswa)
+    public function generateKartu($id)
     {
-        return view('mahasiswa.show', compact('mahasiswa'));
-    }
+        $mahasiswa = Mahasiswa::with('kartuMahasiswa')->findOrFail($id);
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Mahasiswa $mahasiswa)
-    {
-        return view('mahasiswa.edit', compact('mahasiswa'));
-    }
-
-    public function update(Request $request, Mahasiswa $mahasiswa)
-    {
-        $validated = $request->validate([
-            'nama' => 'required|min:3',
-            'email' => 'required|email|unique:mahasiswa,email,' . $mahasiswa->id,
-            'umur' => 'required|numeric|min:17',
-            'jurusan' => 'required',
-        ]);
-
-        $mahasiswa->update($validated);
+        if (!$mahasiswa->kartuMahasiswa) {
+            KartuMahasiswa::create([
+                'mahasiswa_id' => $mahasiswa->id,
+                'nomor_kartu' => 'KTM-' . $mahasiswa->nim,
+                'tanggal_terbit' => now(),
+                'tanggal_berlaku' => now()->addYears(4),
+            ]);
+        }
 
         return redirect()
-            ->route('mahasiswa.index')
-            ->with('success', 'Data mahasiswa berhasil diupdate.');
+            ->route('mahasiswa.detail', $mahasiswa->id)
+            ->with('success', 'Kartu mahasiswa berhasil digenerate.');
     }
 
 
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Mahasiswa $mahasiswa)
-    {
-        $mahasiswa->delete();
-
-        return redirect()
-            ->route('mahasiswa.index')
-            ->with('success', 'Data mahasiswa berhasil dihapus.');
-    }
 }

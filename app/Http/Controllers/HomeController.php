@@ -2,44 +2,31 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Jurusan;
+use Illuminate\View\View;
 
 class HomeController extends Controller
 {
-    //
     public function index()
     {
-        $data = [
-            'title' => 'Home Page',
-            'nama' => 'Amirudin',
-            'matkul' => 'Pemrograman Web Lanjut',
-            'kampus' => 'STMIK Antar Bangsa',
-            'deskripsi' => 'Belajar dasar Controller, Route, dan Blade di Laravel.',
-            'daftarMateri' => [
-                'Pengenalan Laravel',
-                'Routing',
-                'Controller',
-                'Blade Template'
-            ]
-        ];
+        $jurusans = Jurusan::withCount('mahasiswa')->get();
 
-        return view('home', $data);
+        return view('mahasiswa.statistik', compact('jurusans'));
     }
 
-    public function update(Request $request)
+    public function about(): View
     {
-        // handle the logic for updating data
-    }
-    public function about()
-    {
-        $data = [
-            'title' => 'About',
-            'aplikasi' => 'Aplikasi Belajar Laravel untuk Pemrograman Web Lanjut',
-            'versi' => '1.0',
-            'pembuat' => 'Mahasiswa Pemrograman Web Lanjut'
-        ];
+        $aplikasi = 'Akademik App';
+        $versi = '1.0.0';
+        $pembuat = 'Amirudin';
+        $title = 'About';
 
-        return view('about', $data);
+        return view('about', compact(
+            'aplikasi',
+            'versi',
+            'pembuat',
+            'title'
+        ));
     }
-
+    
 }
