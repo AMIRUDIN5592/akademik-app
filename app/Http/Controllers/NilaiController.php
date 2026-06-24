@@ -2,87 +2,75 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Mahasiswa;
-use App\Models\MataKuliah;
-use App\Models\Nilai;
-use Illuminate\Http\Request;
+use App\Http\Requests\NilaiRequest;
+use App\Services\NilaiService;
 
 class NilaiController extends Controller
 {
-    public function create($mahasiswa_id)
+    public function index(NilaiService $nilaiService)
     {
-        $mahasiswa = Mahasiswa::with('jurusan')->findOrFail($mahasiswa_id);
-        $mataKuliahs = MataKuliah::orderBy('nama_mk')->get();
+        $mahasiswas = $nilaiService->getMahasiswasForIndex();
+
+        return view('nilai.index', compact('mahasiswas'));
+    }
+
+    public function create($mahasiswa_id, NilaiService $nilaiService)
+    {
+        $mahasiswa = $nilaiService->getMahasiswaForCreate($mahasiswa_id);
+        $mataKuliahs = $nilaiService->getMataKuliahsForForm();
 
         return view('nilai.create', compact('mahasiswa', 'mataKuliahs'));
     }
 
-    public function store(Request $request)
+    public function store(NilaiRequest $request, NilaiService $nilaiService)
     {
-        $validated = $request->validate([
-            'mahasiswa_id' => ['required', 'exists:mahasiswas,id'],
-            'mata_kuliah_id' => ['required', 'exists:mata_kuliahs,id'],
-            'nilai' => ['required', 'integer', 'min:0', 'max:100'],
-        ]);
+        $validated = $request->validated();
 
-        $sudahAda = Nilai::where('mahasiswa_id', $validated['mahasiswa_id'])
-            ->where('mata_kuliah_id', $validated['mata_kuliah_id'])
-            ->exists();
-
-        if ($sudahAda) {
+        if ($nilaiService->hasDuplicate($validated['mahasiswa_id'], $validated['mata_kuliah_id'])) {
             return back()
                 ->withInput()
                 ->with('error', 'Nilai untuk mata kuliah tersebut sudah ada.');
         }
 
-        Nilai::create($validated);
+        $nilaiService->create($validated);
 
         return redirect()
             ->route('mahasiswa.detail', $validated['mahasiswa_id'])
             ->with('success', 'Nilai mahasiswa berhasil ditambahkan.');
     }
 
-    public function edit($id)
+    public function edit($id, NilaiService $nilaiService)
     {
-        $nilai = Nilai::with(['mahasiswa', 'mataKuliah'])->findOrFail($id);
-        $mataKuliahs = MataKuliah::orderBy('nama_mk')->get();
+        $nilai = $nilaiService->findForEdit($id);
+        $mataKuliahs = $nilaiService->getMataKuliahsForForm();
 
         return view('nilai.edit', compact('nilai', 'mataKuliahs'));
     }
 
-    public function update(Request $request, $id)
+    public function update(NilaiRequest $request, $id, NilaiService $nilaiService)
     {
-        $nilai = Nilai::findOrFail($id);
+        $nilai = $nilaiService->find($id);
+        $validated = $request->validated();
 
-        $validated = $request->validate([
-            'mata_kuliah_id' => ['required', 'exists:mata_kuliahs,id'],
-            'nilai' => ['required', 'integer', 'min:0', 'max:100'],
-        ]);
-
-        $sudahAda = Nilai::where('mahasiswa_id', $nilai->mahasiswa_id)
-            ->where('mata_kuliah_id', $validated['mata_kuliah_id'])
-            ->where('id', '!=', $nilai->id)
-            ->exists();
-
-        if ($sudahAda) {
+        if ($nilaiService->hasDuplicate($nilai->mahasiswa_id, $validated['mata_kuliah_id'], $nilai->id)) {
             return back()
                 ->withInput()
                 ->with('error', 'Mahasiswa ini sudah memiliki nilai pada mata kuliah tersebut.');
         }
 
-        $nilai->update($validated);
+        $nilaiService->update($nilai, $validated);
 
         return redirect()
             ->route('mahasiswa.detail', $nilai->mahasiswa_id)
             ->with('success', 'Nilai mahasiswa berhasil diperbarui.');
     }
 
-    public function destroy($id)
+    public function destroy($id, NilaiService $nilaiService)
     {
-        $nilai = Nilai::findOrFail($id);
+        $nilai = $nilaiService->find($id);
         $mahasiswaId = $nilai->mahasiswa_id;
 
-        $nilai->delete();
+        $nilaiService->delete($nilai);
 
         return redirect()
             ->route('mahasiswa.detail', $mahasiswaId)

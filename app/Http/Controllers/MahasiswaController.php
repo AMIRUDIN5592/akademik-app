@@ -42,6 +42,13 @@ class MahasiswaController extends Controller
         return view('mahasiswa.index', compact('mahasiswas'));
     }
 
+    public function statistik()
+    {
+        $jurusans = Jurusan::withCount('mahasiswa')->get();
+
+        return view('mahasiswa.statistik', compact('jurusans'));
+    }
+
     //create mahasiswa
     public function create()
     {

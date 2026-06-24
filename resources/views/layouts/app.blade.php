@@ -44,7 +44,9 @@
 </head>
 <body class="bg-light">
 
-    @include('partials.navbar')
+    @auth
+        @include('partials.navbar')
+    @endauth
 
     @yield('content')
 
