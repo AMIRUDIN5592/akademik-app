@@ -1,0 +1,2084 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gfmlkjm1",
+    "id": "gfmlkjm1",
+    "slide": 28,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "MASTER",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Aptos Display"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display",
+      "Cascadia Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "MASTER",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#F8FAFC",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Shape 0",
+          "bbox": [
+            52.8,
+            676.8,
+            1176,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#CBD5E1",
+          "lineWidth": 1.33
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Text 1",
+          "bbox": [
+            52.8,
+            683.52,
+            768,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "textPreview": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+              "marginLeft": 0,
+              "indent": 0,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Text 2",
+          "bbox": [
+            1032,
+            683.52,
+            196.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "STMIK Antar Bangsa",
+          "textPreview": "STMIK Antar Bangsa",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "STMIK Antar Bangsa",
+              "marginLeft": 0,
+              "indent": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "STMIK Antar Bangsa",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        1279.97,
+        17.28
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#2563EB",
+      "lineColor": "#2563EB",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        59.52,
+        36.48,
+        921.6,
+        40.32
+      ],
+      "geometry": "rect",
+      "text": "Dashboard Blade Ringkas",
+      "textPreview": "Dashboard Blade Ringkas",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dashboard Blade Ringkas"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dashboard Blade Ringkas",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dashboard Blade Ringkas",
+              "fontSize": 33.33,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpg3ex0n",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        61.44,
+        82.56,
+        940.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "Kartu ringkasan data untuk halaman dashboard.",
+      "textPreview": "Kartu ringkasan data untuk halaman dashboard.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kartu ringkasan data untuk halaman dashboard."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kartu ringkasan data untuk halaman dashboard.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kartu ringkasan data untuk halaman dashboard.",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fa9w3m94",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        59.52,
+        117.12,
+        1156.8,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        81.6,
+        129.6,
+        1123.2,
+        523.2
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#111827",
+      "lineColor": "#1F2937",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        141.12,
+        1098.24,
+        500.16
+      ],
+      "geometry": "rect",
+      "text": " 1 @extends('layouts.app')\n 2 \n 3 @section('content')\n 4 <div class=\"container\">\n 5     @if(session('success'))\n 6         <div class=\"alert alert-success\">{{ session('success') }}</div>\n 7     @endif\n 8 \n 9     <h3>Dashboard Akademik</h3>\n10     <p class=\"text-muted\">Login sebagai: {{ auth()->user()->role }}</p>\n11 \n12     <div class=\"row g-3\">\n13         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">\n14             <h6>Total Mahasiswa</h6><h2>{{ $totalMahasiswa }}</h2>\n15         </div></div></div>\n16         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">\n17             <h6>Total Matakuliah</h6><h2>{{ $totalMatakuliah }}</h2>\n18         </div></div></div>\n19         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">\n20             <h6>Total Nilai</h6><h2>{{ $totalNilai }}</h2>\n21         </div></div></div>\n22     </div>\n23 </div>\n24 @endsection",
+      "textPreview": "1 @extends('layouts.app') |  2  |  3 @section('content') |  4 <div class=\"container\"> |  5     @if(session('success')) |  6         <div ...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0.03,
+          "right": 0.03,
+          "bottom": 0.03,
+          "left": 0.03
+        }
+      },
+      "textLayout": {
+        "lineCount": 24,
+        "lines": [
+          {
+            "index": 1,
+            "text": " 1 @extends('layouts.app')"
+          },
+          {
+            "index": 2,
+            "text": " 2"
+          },
+          {
+            "index": 3,
+            "text": " 3 @section('content')"
+          },
+          {
+            "index": 4,
+            "text": " 4 <div class=\"container\">"
+          },
+          {
+            "index": 5,
+            "text": " 5     @if(session('success'))"
+          },
+          {
+            "index": 6,
+            "text": " 6         <div class=\"alert alert-success\">{{ session('success') }}</div>"
+          },
+          {
+            "index": 7,
+            "text": " 7     @endif"
+          },
+          {
+            "index": 8,
+            "text": " 8"
+          },
+          {
+            "index": 9,
+            "text": " 9     <h3>Dashboard Akademik</h3>"
+          },
+          {
+            "index": 10,
+            "text": "10     <p class=\"text-muted\">Login sebagai: {{ auth()->user()->role }}</p>"
+          },
+          {
+            "index": 11,
+            "text": "11"
+          },
+          {
+            "index": 12,
+            "text": "12     <div class=\"row g-3\">"
+          },
+          {
+            "index": 13,
+            "text": "13         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">"
+          },
+          {
+            "index": 14,
+            "text": "14             <h6>Total Mahasiswa</h6><h2>{{ $totalMahasiswa }}</h2>"
+          },
+          {
+            "index": 15,
+            "text": "15         </div></div></div>"
+          },
+          {
+            "index": 16,
+            "text": "16         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">"
+          },
+          {
+            "index": 17,
+            "text": "17             <h6>Total Matakuliah</h6><h2>{{ $totalMatakuliah }}</h2>"
+          },
+          {
+            "index": 18,
+            "text": "18         </div></div></div>"
+          },
+          {
+            "index": 19,
+            "text": "19         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">"
+          },
+          {
+            "index": 20,
+            "text": "20             <h6>Total Nilai</h6><h2>{{ $totalNilai }}</h2>"
+          },
+          {
+            "index": 21,
+            "text": "21         </div></div></div>"
+          },
+          {
+            "index": 22,
+            "text": "22     </div>"
+          },
+          {
+            "index": 23,
+            "text": "23 </div>"
+          },
+          {
+            "index": 24,
+            "text": "24 @endsection"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " 1 @extends('layouts.app')\n 2 \n 3 @section('content')\n 4 <div class=\"container\">\n 5     @if(session('success'))\n 6         <div class=\"alert alert-success\">{{ session('success') }}</div>\n 7     @endif\n 8 \n 9     <h3>Dashboard Akademik</h3>\n10     <p class=\"text-muted\">Login sebagai: {{ auth()->user()->role }}</p>\n11 \n12     <div class=\"row g-3\">\n13         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">\n14             <h6>Total Mahasiswa</h6><h2>{{ $totalMahasiswa }}</h2>\n15         </div></div></div>\n16         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">\n17             <h6>Total Matakuliah</h6><h2>{{ $totalMatakuliah }}</h2>\n18         </div></div></div>\n19         <div class=\"col-md-4\"><div class=\"card shadow-sm\"><div class=\"card-body\">\n20             <h6>Total Nilai</h6><h2>{{ $totalNilai }}</h2>\n21         </div></div></div>\n22     </div>\n23 </div>\n24 @endsection",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": " 1 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 2,
+              "text": "@extends('layouts.app')\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 3,
+              "text": " 2 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 4,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 5,
+              "text": " 3 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 6,
+              "text": "@section('content')\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 7,
+              "text": " 4 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 8,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 9,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 10,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 11,
+              "text": "container",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 12,
+              "text": "\">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 13,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 14,
+              "text": " 5 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 15,
+              "text": "    @if(session('success'))\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 16,
+              "text": " 6 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 17,
+              "text": "        ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 18,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 19,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 20,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 21,
+              "text": "alert alert-success",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 22,
+              "text": "\">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 23,
+              "text": "{{ session('success') }}",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 24,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 25,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 26,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 27,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 28,
+              "text": " 7 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 29,
+              "text": "    @endif\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 30,
+              "text": " 8 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 31,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 32,
+              "text": " 9 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 33,
+              "text": "    ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 34,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 35,
+              "text": "h3",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 36,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 37,
+              "text": "Dashboard Akademik",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 38,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 39,
+              "text": "h3",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 40,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 41,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 42,
+              "text": "10 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 43,
+              "text": "    ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 44,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 45,
+              "text": "p class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 46,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 47,
+              "text": "text-muted",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 48,
+              "text": "\">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 49,
+              "text": "Login sebagai: {{ auth()->user()->role }}",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 50,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 51,
+              "text": "p",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 52,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 53,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 54,
+              "text": "11 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 55,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 56,
+              "text": "12 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 57,
+              "text": "    ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 58,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 59,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 60,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 61,
+              "text": "row g-3",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 62,
+              "text": "\">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 63,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 64,
+              "text": "13 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 65,
+              "text": "        ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 66,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 67,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 68,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 69,
+              "text": "col-md-4",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 70,
+              "text": "\"><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 71,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 72,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 73,
+              "text": "card shadow-sm",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 74,
+              "text": "\"><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 75,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 76,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 77,
+              "text": "card-body",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 78,
+              "text": "\">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 79,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 80,
+              "text": "14 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 81,
+              "text": "            ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 82,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 83,
+              "text": "h6",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 84,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 85,
+              "text": "Total Mahasiswa",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 86,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 87,
+              "text": "h6",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 88,
+              "text": "><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 89,
+              "text": "h2",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 90,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 91,
+              "text": "{{ $totalMahasiswa }}",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 92,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 93,
+              "text": "h2",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 94,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 95,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 96,
+              "text": "15 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 97,
+              "text": "        ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 98,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 99,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 100,
+              "text": "></",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 101,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 102,
+              "text": "></",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 103,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 104,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 105,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 106,
+              "text": "16 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 107,
+              "text": "        ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 108,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 109,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 110,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 111,
+              "text": "col-md-4",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 112,
+              "text": "\"><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 113,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 114,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 115,
+              "text": "card shadow-sm",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 116,
+              "text": "\"><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 117,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 118,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 119,
+              "text": "card-body",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 120,
+              "text": "\">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 121,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 122,
+              "text": "17 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 123,
+              "text": "            ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 124,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 125,
+              "text": "h6",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 126,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 127,
+              "text": "Total Matakuliah",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 128,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 129,
+              "text": "h6",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 130,
+              "text": "><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 131,
+              "text": "h2",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 132,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 133,
+              "text": "{{ $totalMatakuliah }}",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 134,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 135,
+              "text": "h2",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 136,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 137,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 138,
+              "text": "18 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 139,
+              "text": "        ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 140,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 141,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 142,
+              "text": "></",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 143,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 144,
+              "text": "></",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 145,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 146,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 147,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 148,
+              "text": "19 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 149,
+              "text": "        ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 150,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 151,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 152,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 153,
+              "text": "col-md-4",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 154,
+              "text": "\"><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 155,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 156,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 157,
+              "text": "card shadow-sm",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 158,
+              "text": "\"><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 159,
+              "text": "div class",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 160,
+              "text": "=\"",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 161,
+              "text": "card-body",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 162,
+              "text": "\">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 163,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 164,
+              "text": "20 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 165,
+              "text": "            ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 166,
+              "text": "<",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 167,
+              "text": "h6",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 168,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 169,
+              "text": "Total Nilai",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 170,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 171,
+              "text": "h6",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 172,
+              "text": "><",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 173,
+              "text": "h2",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 174,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 175,
+              "text": "{{ $totalNilai }}",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 176,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 177,
+              "text": "h2",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 178,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 179,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 180,
+              "text": "21 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 181,
+              "text": "        ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 182,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 183,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 184,
+              "text": "></",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 185,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 186,
+              "text": "></",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 187,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 188,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 189,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 190,
+              "text": "22 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 191,
+              "text": "    ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 192,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 193,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 194,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 195,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 196,
+              "text": "23 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 197,
+              "text": "</",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 198,
+              "text": "div",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 199,
+              "text": ">",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 200,
+              "text": "\n",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 201,
+              "text": "24 ",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 202,
+              "text": "@endsection",
+              "fontSize": 9.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1233.6,
+        683.52,
+        83.99,
+        31.5
+      ],
+      "geometry": "rect",
+      "text": "27",
+      "textPreview": "27",
+      "resolvedFontSize": 10.67,
+      "resolvedTextStyle": {
+        "fontSize": 10.67,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "27"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "27",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "27"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

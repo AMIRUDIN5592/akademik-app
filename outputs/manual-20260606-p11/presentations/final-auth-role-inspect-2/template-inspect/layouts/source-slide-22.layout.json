@@ -1,0 +1,1034 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5wjudg7a",
+    "id": "5wjudg7a",
+    "slide": 23,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "MASTER",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Aptos Display"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display",
+      "Cascadia Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "MASTER",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#F8FAFC",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Shape 0",
+          "bbox": [
+            52.8,
+            676.8,
+            1176,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#CBD5E1",
+          "lineWidth": 1.33
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Text 1",
+          "bbox": [
+            52.8,
+            683.52,
+            768,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "textPreview": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+              "marginLeft": 0,
+              "indent": 0,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Text 2",
+          "bbox": [
+            1032,
+            683.52,
+            196.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "STMIK Antar Bangsa",
+          "textPreview": "STMIK Antar Bangsa",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "STMIK Antar Bangsa",
+              "marginLeft": 0,
+              "indent": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "STMIK Antar Bangsa",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        1279.97,
+        17.28
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#2563EB",
+      "lineColor": "#2563EB",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        59.52,
+        36.48,
+        921.6,
+        40.32
+      ],
+      "geometry": "rect",
+      "text": "View Nilai Saya",
+      "textPreview": "View Nilai Saya",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "View Nilai Saya"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "View Nilai Saya",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "View Nilai Saya",
+              "fontSize": 33.33,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        61.44,
+        82.56,
+        940.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "Tabel nilai khusus untuk role mahasiswa.",
+      "textPreview": "Tabel nilai khusus untuk role mahasiswa.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tabel nilai khusus untuk role mahasiswa."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tabel nilai khusus untuk role mahasiswa.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tabel nilai khusus untuk role mahasiswa.",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        59.52,
+        117.12,
+        1156.8,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        81.6,
+        129.6,
+        1123.2,
+        523.2
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#111827",
+      "lineColor": "#1F2937",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr2p8nqx",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        141.12,
+        1098.24,
+        500.16
+      ],
+      "geometry": "rect",
+      "text": "@extends('layouts.app')\n\n@section('content')\n<div class=\"container py-4\">\n    <h3>Nilai Saya</h3>\n    <table class=\"table table-bordered table-striped\">\n        <thead>\n            <tr>\n                <th>No</th>\n                <th>Kode MK</th>\n                <th>Mata Kuliah</th>\n                <th>SKS</th>\n                <th>Nilai</th>\n            </tr>\n        </thead>\n        <tbody>\n            @forelse ($nilai as $row)\n                <tr>\n                    <td>{{ $loop->iteration }}</td>\n                    <td>{{ $row->mataKuliah->kode_mk ?? '-' }}</td>\n                    <td>{{ $row->mataKuliah->nama_mk ?? '-' }}</td>\n                    <td>{{ $row->mataKuliah->sks ?? '-' }}</td>\n                    <td>{{ $row->nilai }}</td>\n                </tr>",
+      "textPreview": "@extends('layouts.app') |  | @section('content') | <div class=\"container py-4\"> |     <h3>Nilai Saya</h3> |     <table class=\"table table...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0.03,
+          "right": 0.03,
+          "bottom": 0.03,
+          "left": 0.03
+        }
+      },
+      "textLayout": {
+        "lineCount": 24,
+        "lines": [
+          {
+            "index": 1,
+            "text": "@extends('layouts.app')"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "@section('content')"
+          },
+          {
+            "index": 4,
+            "text": "<div class=\"container py-4\">"
+          },
+          {
+            "index": 5,
+            "text": "    <h3>Nilai Saya</h3>"
+          },
+          {
+            "index": 6,
+            "text": "    <table class=\"table table-bordered table-striped\">"
+          },
+          {
+            "index": 7,
+            "text": "        <thead>"
+          },
+          {
+            "index": 8,
+            "text": "            <tr>"
+          },
+          {
+            "index": 9,
+            "text": "                <th>No</th>"
+          },
+          {
+            "index": 10,
+            "text": "                <th>Kode MK</th>"
+          },
+          {
+            "index": 11,
+            "text": "                <th>Mata Kuliah</th>"
+          },
+          {
+            "index": 12,
+            "text": "                <th>SKS</th>"
+          },
+          {
+            "index": 13,
+            "text": "                <th>Nilai</th>"
+          },
+          {
+            "index": 14,
+            "text": "            </tr>"
+          },
+          {
+            "index": 15,
+            "text": "        </thead>"
+          },
+          {
+            "index": 16,
+            "text": "        <tbody>"
+          },
+          {
+            "index": 17,
+            "text": "            @forelse ($nilai as $row)"
+          },
+          {
+            "index": 18,
+            "text": "                <tr>"
+          },
+          {
+            "index": 19,
+            "text": "                    <td>{{ $loop->iteration }}</td>"
+          },
+          {
+            "index": 20,
+            "text": "                    <td>{{ $row->mataKuliah->kode_mk ?? '-' }}</td>"
+          },
+          {
+            "index": 21,
+            "text": "                    <td>{{ $row->mataKuliah->nama_mk ?? '-' }}</td>"
+          },
+          {
+            "index": 22,
+            "text": "                    <td>{{ $row->mataKuliah->sks ?? '-' }}</td>"
+          },
+          {
+            "index": 23,
+            "text": "                    <td>{{ $row->nilai }}</td>"
+          },
+          {
+            "index": 24,
+            "text": "                </tr>"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "@extends('layouts.app')",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "@extends('layouts.app')",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 3,
+          "text": "@section('content')",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "@section('content')",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 4,
+          "text": "<div class=\"container py-4\">",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "<div class=\"container py-4\">",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 5,
+          "text": "    <h3>Nilai Saya</h3>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "    <h3>Nilai Saya</h3>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 6,
+          "text": "    <table class=\"table table-bordered table-striped\">",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "    <table class=\"table table-bordered table-striped\">",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 7,
+          "text": "        <thead>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "        <thead>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 8,
+          "text": "            <tr>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "            <tr>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 9,
+          "text": "                <th>No</th>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                <th>No</th>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 10,
+          "text": "                <th>Kode MK</th>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                <th>Kode MK</th>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 11,
+          "text": "                <th>Mata Kuliah</th>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                <th>Mata Kuliah</th>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 12,
+          "text": "                <th>SKS</th>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                <th>SKS</th>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 13,
+          "text": "                <th>Nilai</th>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                <th>Nilai</th>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 14,
+          "text": "            </tr>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "            </tr>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 15,
+          "text": "        </thead>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "        </thead>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 16,
+          "text": "        <tbody>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "        <tbody>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 17,
+          "text": "            @forelse ($nilai as $row)",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "            @forelse ($nilai as $row)",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 18,
+          "text": "                <tr>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                <tr>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 19,
+          "text": "                    <td>{{ $loop->iteration }}</td>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                    <td>{{ $loop->iteration }}</td>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 20,
+          "text": "                    <td>{{ $row->mataKuliah->kode_mk ?? '-' }}</td>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                    <td>{{ $row->mataKuliah->kode_mk ?? '-' }}</td>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 21,
+          "text": "                    <td>{{ $row->mataKuliah->nama_mk ?? '-' }}</td>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                    <td>{{ $row->mataKuliah->nama_mk ?? '-' }}</td>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 22,
+          "text": "                    <td>{{ $row->mataKuliah->sks ?? '-' }}</td>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                    <td>{{ $row->mataKuliah->sks ?? '-' }}</td>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 23,
+          "text": "                    <td>{{ $row->nilai }}</td>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                    <td>{{ $row->nilai }}</td>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 24,
+          "text": "                </tr>",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "                </tr>",
+              "fontSize": 9.87,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1233.6,
+        683.52,
+        83.99,
+        31.5
+      ],
+      "geometry": "rect",
+      "text": "22",
+      "textPreview": "22",
+      "resolvedFontSize": 10.67,
+      "resolvedTextStyle": {
+        "fontSize": 10.67,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "22"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "22",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "22"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1298 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/54zidony",
+    "id": "54zidony",
+    "slide": 18,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "MASTER",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Aptos Display"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display",
+      "Cascadia Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "MASTER",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#F8FAFC",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Shape 0",
+          "bbox": [
+            52.8,
+            676.8,
+            1176,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#CBD5E1",
+          "lineWidth": 1.33
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Text 1",
+          "bbox": [
+            52.8,
+            683.52,
+            768,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "textPreview": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+              "marginLeft": 0,
+              "indent": 0,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Text 2",
+          "bbox": [
+            1032,
+            683.52,
+            196.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "STMIK Antar Bangsa",
+          "textPreview": "STMIK Antar Bangsa",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "STMIK Antar Bangsa",
+              "marginLeft": 0,
+              "indent": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "STMIK Antar Bangsa",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        1279.97,
+        17.28
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#2563EB",
+      "lineColor": "#2563EB",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        59.52,
+        36.48,
+        921.6,
+        40.32
+      ],
+      "geometry": "rect",
+      "text": "Proteksi Route CRUD dengan Auth",
+      "textPreview": "Proteksi Route CRUD dengan Auth",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Proteksi Route CRUD dengan Auth"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Proteksi Route CRUD dengan Auth",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Proteksi Route CRUD dengan Auth",
+              "fontSize": 33.33,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        61.44,
+        82.56,
+        940.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "Semua halaman utama hanya bisa diakses setelah login.",
+      "textPreview": "Semua halaman utama hanya bisa diakses setelah login.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Semua halaman utama hanya bisa diakses setelah login."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Semua halaman utama hanya bisa diakses setelah login.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Semua halaman utama hanya bisa diakses setelah login.",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        59.52,
+        117.12,
+        1156.8,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        81.6,
+        148.8,
+        1123.2,
+        244.8
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#111827",
+      "lineColor": "#1F2937",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        160.32,
+        1098.24,
+        221.76
+      ],
+      "geometry": "rect",
+      "text": "1 use AppHttpControllersMahasiswaController;\n2 use AppHttpControllersMatakuliahController;\n3 use AppHttpControllersNilaiController;\n4 \n5 Route::middleware('auth')->group(function () {\n6     Route::resource('/mahasiswa', MahasiswaController::class);\n7     Route::resource('/matakuliah', MatakuliahController::class);\n8     Route::resource('/nilai', NilaiController::class);\n9 });",
+      "textPreview": "1 use AppHttpControllersMahasiswaController; | 2 use AppHttpControllersMatakuliahController; | 3 use AppHttpControllersNilaiController; |...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0.03,
+          "right": 0.03,
+          "bottom": 0.03,
+          "left": 0.03
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1 use AppHttpControllersMahasiswaController;"
+          },
+          {
+            "index": 2,
+            "text": "2 use AppHttpControllersMatakuliahController;"
+          },
+          {
+            "index": 3,
+            "text": "3 use AppHttpControllersNilaiController;"
+          },
+          {
+            "index": 4,
+            "text": "4"
+          },
+          {
+            "index": 5,
+            "text": "5 Route::middleware('auth')->group(function () {"
+          },
+          {
+            "index": 6,
+            "text": "6     Route::resource('/mahasiswa', MahasiswaController::class);"
+          },
+          {
+            "index": 7,
+            "text": "7     Route::resource('/matakuliah', MatakuliahController::class);"
+          },
+          {
+            "index": 8,
+            "text": "8     Route::resource('/nilai', NilaiController::class);"
+          },
+          {
+            "index": 9,
+            "text": "9 });"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1 use AppHttpControllersMahasiswaController;\n2 use AppHttpControllersMatakuliahController;\n3 use AppHttpControllersNilaiController;\n4 \n5 Route::middleware('auth')->group(function () {\n6     Route::resource('/mahasiswa', MahasiswaController::class);\n7     Route::resource('/matakuliah', MatakuliahController::class);\n8     Route::resource('/nilai', NilaiController::class);\n9 });",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "1 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 2,
+              "text": "use",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 3,
+              "text": " AppHttpControllersMahasiswaController",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 4,
+              "text": ";",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 5,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 6,
+              "text": "2 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 7,
+              "text": "use",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 8,
+              "text": " AppHttpControllersMatakuliahController",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 9,
+              "text": ";",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 10,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 11,
+              "text": "3 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 12,
+              "text": "use",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 13,
+              "text": " AppHttpControllersNilaiController",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 14,
+              "text": ";",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 15,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 16,
+              "text": "4 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 17,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 18,
+              "text": "5 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 19,
+              "text": "Route",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 20,
+              "text": "::",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 21,
+              "text": "middleware",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 22,
+              "text": "(",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 23,
+              "text": "'auth'",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 24,
+              "text": ")->",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 25,
+              "text": "group",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 26,
+              "text": "(",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 27,
+              "text": "function",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 28,
+              "text": " ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 29,
+              "text": "()",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 30,
+              "text": " ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 31,
+              "text": "{",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 32,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 33,
+              "text": "6 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 34,
+              "text": "    Route",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 35,
+              "text": "::",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 36,
+              "text": "resource",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 37,
+              "text": "(",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 38,
+              "text": "'/mahasiswa'",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 39,
+              "text": ",",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 40,
+              "text": " MahasiswaController",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 41,
+              "text": "::",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 42,
+              "text": "class",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 43,
+              "text": ");",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 44,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 45,
+              "text": "7 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 46,
+              "text": "    Route",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 47,
+              "text": "::",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 48,
+              "text": "resource",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 49,
+              "text": "(",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 50,
+              "text": "'/matakuliah'",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 51,
+              "text": ",",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 52,
+              "text": " MatakuliahController",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 53,
+              "text": "::",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 54,
+              "text": "class",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 55,
+              "text": ");",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 56,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 57,
+              "text": "8 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 58,
+              "text": "    Route",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 59,
+              "text": "::",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 60,
+              "text": "resource",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 61,
+              "text": "(",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 62,
+              "text": "'/nilai'",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 63,
+              "text": ",",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 64,
+              "text": " NilaiController",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 65,
+              "text": "::",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 66,
+              "text": "class",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 67,
+              "text": ");",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 68,
+              "text": "\n",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 69,
+              "text": "9 ",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 70,
+              "text": "});",
+              "fontSize": 17.33,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fepkzupw",
+      "id": "8",
+      "name": "Shape 6",
+      "bbox": [
+        100.8,
+        436.8,
+        1080,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwra5gb",
+      "id": "9",
+      "name": "Shape 7",
+      "bbox": [
+        100.8,
+        436.8,
+        7.68,
+        100.8
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#10B981",
+      "lineColor": "#10B981",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        121.92,
+        454.08,
+        1046.4,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Efek",
+      "textPreview": "Efek",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Efek"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Efek",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Efek",
+              "fontSize": 18.67,
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        121.92,
+        489.6,
+        1046.4,
+        33.6
+      ],
+      "geometry": "rect",
+      "text": "Jika user belum login dan mencoba membuka /mahasiswa, /matakuliah, atau /nilai, Laravel akan mengarahkan user ke halaman login.",
+      "textPreview": "Jika user belum login dan mencoba membuka /mahasiswa, /matakuliah, atau /nilai, Laravel akan mengarahkan user ke halaman login.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0.04,
+          "right": 0.04,
+          "bottom": 0.04,
+          "left": 0.04
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Jika user belum login dan mencoba membuka /mahasiswa, /matakuliah, atau /nilai, Laravel akan mengarahkan user ke halaman login."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Jika user belum login dan mencoba membuka /mahasiswa, /matakuliah, atau /nilai, Laravel akan mengarahkan user ke halaman login.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Jika user belum login dan mencoba membuka /mahasiswa, /matakuliah, atau /nilai, Laravel akan mengarahkan user ke halaman login.",
+              "fontSize": 15.07,
+              "color": "#334155"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1233.6,
+        683.52,
+        83.99,
+        31.5
+      ],
+      "geometry": "rect",
+      "text": "17",
+      "textPreview": "17",
+      "resolvedFontSize": 10.67,
+      "resolvedTextStyle": {
+        "fontSize": 10.67,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "17",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "17"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

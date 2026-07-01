@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
@@ -19,5 +20,16 @@ class Nilai extends Model
     public function mataKuliah()
     {
         return $this->belongsTo(MataKuliah::class);
+    }
+
+    public function getGradeAttribute(): string
+    {
+        return match (true) {
+            $this->nilai >= 85 => 'A',
+            $this->nilai >= 75 => 'B',
+            $this->nilai >= 65 => 'C',
+            $this->nilai >= 50 => 'D',
+            default => 'E',
+        };
     }
 }

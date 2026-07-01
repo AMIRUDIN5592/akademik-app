@@ -159,6 +159,32 @@ class Pertemuan13DashboardReportingTest extends TestCase
             ->assertSee('Data tidak ditemukan.');
     }
 
+    public function test_report_accepts_minimum_and_maximum_filters_independently(): void
+    {
+        $admin = User::factory()->create(['role' => 'admin']);
+        [$mahasiswa, $mataKuliah] = $this->createAcademicData();
+        $otherSubject = MataKuliah::create([
+            'kode_mk' => 'MK015',
+            'nama_mk' => 'Analisis Sistem',
+            'sks' => 3,
+        ]);
+
+        Nilai::create(['mahasiswa_id' => $mahasiswa->id, 'mata_kuliah_id' => $mataKuliah->id, 'nilai' => 90]);
+        Nilai::create(['mahasiswa_id' => $mahasiswa->id, 'mata_kuliah_id' => $otherSubject->id, 'nilai' => 50]);
+
+        $this->actingAs($admin)
+            ->get('/laporan/nilai?nilai_min=80')
+            ->assertOk()
+            ->assertViewHas('summary', fn (array $summary) => $summary['totalData'] === 1
+                && $summary['nilaiTerendah'] === 90);
+
+        $this->actingAs($admin)
+            ->get('/laporan/nilai?nilai_max=60')
+            ->assertOk()
+            ->assertViewHas('summary', fn (array $summary) => $summary['totalData'] === 1
+                && $summary['nilaiTertinggi'] === 50);
+    }
+
     public function test_report_pagination_keeps_active_filters(): void
     {
         $admin = User::factory()->create(['role' => 'admin']);

@@ -30,6 +30,9 @@
                     <a class="nav-link {{ request()->routeIs('nilai.*') ? 'active' : '' }}" href="{{ route('nilai.index') }}">
                         <i class="fas fa-pen-to-square"></i> Nilai
                     </a>
+                    <a class="nav-link {{ request()->routeIs('laporan.nilai') ? 'active' : '' }}" href="{{ route('laporan.nilai') }}">
+                        <i class="fas fa-chart-column"></i> Laporan Nilai
+                    </a>
                 @endif
                 @if (auth()->user()->role === 'mahasiswa')
                     <a class="nav-link {{ request()->routeIs('nilai-saya.*') ? 'active' : '' }}" href="{{ route('nilai-saya.index') }}">

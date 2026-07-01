@@ -15,6 +15,9 @@ class DashboardService
             'totalMahasiswa' => Mahasiswa::count(),
             'totalMataKuliah' => MataKuliah::count(),
             'totalNilai' => Nilai::count(),
+            'rataRataNilai' => round((float) (Nilai::avg('nilai') ?? 0), 2),
+            'nilaiTertinggi' => Nilai::max('nilai') ?? 0,
+            'nilaiTerendah' => Nilai::min('nilai') ?? 0,
         ];
     }
 
@@ -26,12 +29,25 @@ class DashboardService
             ->get();
     }
 
-    public function getStatistikNilai(): array
+    public function getDistribusiNilai(): array
     {
         return [
-            'rataRata' => round((float) Nilai::avg('nilai'), 2),
-            'tertinggi' => Nilai::max('nilai') ?? 0,
-            'terendah' => Nilai::min('nilai') ?? 0,
+            'A' => Nilai::whereBetween('nilai', [85, 100])->count(),
+            'B' => Nilai::whereBetween('nilai', [75, 84])->count(),
+            'C' => Nilai::whereBetween('nilai', [65, 74])->count(),
+            'D' => Nilai::whereBetween('nilai', [50, 64])->count(),
+            'E' => Nilai::whereBetween('nilai', [0, 49])->count(),
         ];
+    }
+
+    public function getMahasiswaPerJurusan(): Collection
+    {
+        return Mahasiswa::query()
+            ->select('jurusans.nama_jurusan')
+            ->selectRaw('COUNT(mahasiswas.id) as total')
+            ->join('jurusans', 'jurusans.id', '=', 'mahasiswas.jurusan_id')
+            ->groupBy('jurusans.nama_jurusan')
+            ->orderBy('jurusans.nama_jurusan')
+            ->get();
     }
 }

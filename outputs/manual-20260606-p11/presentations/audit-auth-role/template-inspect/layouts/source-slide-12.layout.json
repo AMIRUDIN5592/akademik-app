@@ -1,0 +1,1919 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4fu18jqh",
+    "id": "4fu18jqh",
+    "slide": 13,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "MASTER",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Aptos Display"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display",
+      "Cascadia Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "MASTER",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#F8FAFC",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Shape 0",
+          "bbox": [
+            52.8,
+            676.8,
+            1176,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#CBD5E1",
+          "lineWidth": 1.33
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Text 1",
+          "bbox": [
+            52.8,
+            683.52,
+            768,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "textPreview": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+              "marginLeft": 0,
+              "indent": 0,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Text 2",
+          "bbox": [
+            1032,
+            683.52,
+            196.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "STMIK Antar Bangsa",
+          "textPreview": "STMIK Antar Bangsa",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "STMIK Antar Bangsa",
+              "marginLeft": 0,
+              "indent": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "STMIK Antar Bangsa",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        1279.97,
+        17.28
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#2563EB",
+      "lineColor": "#2563EB",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        59.52,
+        36.48,
+        921.6,
+        40.32
+      ],
+      "geometry": "rect",
+      "text": "Route Authentication",
+      "textPreview": "Route Authentication",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Route Authentication"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Route Authentication",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Route Authentication",
+              "fontSize": 33.33,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        61.44,
+        82.56,
+        940.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "Route login, proses login, logout, dan dashboard.",
+      "textPreview": "Route login, proses login, logout, dan dashboard.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Route login, proses login, logout, dan dashboard."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Route login, proses login, logout, dan dashboard.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Route login, proses login, logout, dan dashboard.",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        59.52,
+        117.12,
+        1156.8,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        81.6,
+        129.6,
+        1123.2,
+        523.2
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#111827",
+      "lineColor": "#1F2937",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        141.12,
+        1098.24,
+        500.16
+      ],
+      "geometry": "rect",
+      "text": " 1 use AppHttpControllersAuthController;\n 2 use AppHttpControllersDashboardController;\n 3 use IlluminateSupportFacadesRoute;\n 4 \n 5 Route::get('/', function () {\n 6     return redirect()->route('login');\n 7 });\n 8 \n 9 Route::get('/login', [AuthController::class, 'showLogin'])\n10     ->name('login')\n11     ->middleware('guest');\n12 \n13 Route::post('/login', [AuthController::class, 'login'])\n14     ->name('login.process')\n15     ->middleware('guest');\n16 \n17 Route::post('/logout', [AuthController::class, 'logout'])\n18     ->name('logout')\n19     ->middleware('auth');\n20 \n21 Route::get('/dashboard', [DashboardController::class, 'index'])\n22     ->name('dashboard')\n23     ->middleware('auth');",
+      "textPreview": "1 use AppHttpControllersAuthController; |  2 use AppHttpControllersDashboardController; |  3 use IlluminateSupportFacadesRoute; |  4  |  ...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0.03,
+          "right": 0.03,
+          "bottom": 0.03,
+          "left": 0.03
+        }
+      },
+      "textLayout": {
+        "lineCount": 23,
+        "lines": [
+          {
+            "index": 1,
+            "text": " 1 use AppHttpControllersAuthController;"
+          },
+          {
+            "index": 2,
+            "text": " 2 use AppHttpControllersDashboardController;"
+          },
+          {
+            "index": 3,
+            "text": " 3 use IlluminateSupportFacadesRoute;"
+          },
+          {
+            "index": 4,
+            "text": " 4"
+          },
+          {
+            "index": 5,
+            "text": " 5 Route::get('/', function () {"
+          },
+          {
+            "index": 6,
+            "text": " 6     return redirect()->route('login');"
+          },
+          {
+            "index": 7,
+            "text": " 7 });"
+          },
+          {
+            "index": 8,
+            "text": " 8"
+          },
+          {
+            "index": 9,
+            "text": " 9 Route::get('/login', [AuthController::class, 'showLogin'])"
+          },
+          {
+            "index": 10,
+            "text": "10     ->name('login')"
+          },
+          {
+            "index": 11,
+            "text": "11     ->middleware('guest');"
+          },
+          {
+            "index": 12,
+            "text": "12"
+          },
+          {
+            "index": 13,
+            "text": "13 Route::post('/login', [AuthController::class, 'login'])"
+          },
+          {
+            "index": 14,
+            "text": "14     ->name('login.process')"
+          },
+          {
+            "index": 15,
+            "text": "15     ->middleware('guest');"
+          },
+          {
+            "index": 16,
+            "text": "16"
+          },
+          {
+            "index": 17,
+            "text": "17 Route::post('/logout', [AuthController::class, 'logout'])"
+          },
+          {
+            "index": 18,
+            "text": "18     ->name('logout')"
+          },
+          {
+            "index": 19,
+            "text": "19     ->middleware('auth');"
+          },
+          {
+            "index": 20,
+            "text": "20"
+          },
+          {
+            "index": 21,
+            "text": "21 Route::get('/dashboard', [DashboardController::class, 'index'])"
+          },
+          {
+            "index": 22,
+            "text": "22     ->name('dashboard')"
+          },
+          {
+            "index": 23,
+            "text": "23     ->middleware('auth');"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " 1 use AppHttpControllersAuthController;\n 2 use AppHttpControllersDashboardController;\n 3 use IlluminateSupportFacadesRoute;\n 4 \n 5 Route::get('/', function () {\n 6     return redirect()->route('login');\n 7 });\n 8 \n 9 Route::get('/login', [AuthController::class, 'showLogin'])\n10     ->name('login')\n11     ->middleware('guest');\n12 \n13 Route::post('/login', [AuthController::class, 'login'])\n14     ->name('login.process')\n15     ->middleware('guest');\n16 \n17 Route::post('/logout', [AuthController::class, 'logout'])\n18     ->name('logout')\n19     ->middleware('auth');\n20 \n21 Route::get('/dashboard', [DashboardController::class, 'index'])\n22     ->name('dashboard')\n23     ->middleware('auth');",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": " 1 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 2,
+              "text": "use",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 3,
+              "text": " AppHttpControllersAuthController",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 4,
+              "text": ";",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 5,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 6,
+              "text": " 2 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 7,
+              "text": "use",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 8,
+              "text": " AppHttpControllersDashboardController",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 9,
+              "text": ";",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 10,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 11,
+              "text": " 3 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 12,
+              "text": "use",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 13,
+              "text": " IlluminateSupportFacadesRoute",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 14,
+              "text": ";",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 15,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 16,
+              "text": " 4 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 17,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 18,
+              "text": " 5 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 19,
+              "text": "Route",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 20,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 21,
+              "text": "get",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 22,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 23,
+              "text": "'/'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 24,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 25,
+              "text": " ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 26,
+              "text": "function",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 27,
+              "text": " ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 28,
+              "text": "()",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 29,
+              "text": " ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 30,
+              "text": "{",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 31,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 32,
+              "text": " 6 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 33,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 34,
+              "text": "return",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 35,
+              "text": " redirect",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 36,
+              "text": "()->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 37,
+              "text": "route",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 38,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 39,
+              "text": "'login'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 40,
+              "text": ");",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 41,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 42,
+              "text": " 7 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 43,
+              "text": "});",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 44,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 45,
+              "text": " 8 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 46,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 47,
+              "text": " 9 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 48,
+              "text": "Route",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 49,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 50,
+              "text": "get",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 51,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 52,
+              "text": "'/login'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 53,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 54,
+              "text": " ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 55,
+              "text": "[",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 56,
+              "text": "AuthController",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 57,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 58,
+              "text": "class",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 59,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 60,
+              "text": " 'showLogin'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 61,
+              "text": "])",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 62,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 63,
+              "text": "10 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 64,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 65,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 66,
+              "text": "name",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 67,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 68,
+              "text": "'login'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 69,
+              "text": ")",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 70,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 71,
+              "text": "11 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 72,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 73,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 74,
+              "text": "middleware",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 75,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 76,
+              "text": "'guest'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 77,
+              "text": ");",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 78,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 79,
+              "text": "12 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 80,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 81,
+              "text": "13 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 82,
+              "text": "Route",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 83,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 84,
+              "text": "post",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 85,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 86,
+              "text": "'/login'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 87,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 88,
+              "text": " ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 89,
+              "text": "[",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 90,
+              "text": "AuthController",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 91,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 92,
+              "text": "class",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 93,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 94,
+              "text": " 'login'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 95,
+              "text": "])",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 96,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 97,
+              "text": "14 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 98,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 99,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 100,
+              "text": "name",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 101,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 102,
+              "text": "'login.process'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 103,
+              "text": ")",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 104,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 105,
+              "text": "15 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 106,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 107,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 108,
+              "text": "middleware",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 109,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 110,
+              "text": "'guest'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 111,
+              "text": ");",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 112,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 113,
+              "text": "16 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 114,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 115,
+              "text": "17 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 116,
+              "text": "Route",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 117,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 118,
+              "text": "post",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 119,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 120,
+              "text": "'/logout'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 121,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 122,
+              "text": " ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 123,
+              "text": "[",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 124,
+              "text": "AuthController",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 125,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 126,
+              "text": "class",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 127,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 128,
+              "text": " 'logout'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 129,
+              "text": "])",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 130,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 131,
+              "text": "18 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 132,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 133,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 134,
+              "text": "name",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 135,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 136,
+              "text": "'logout'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 137,
+              "text": ")",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 138,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 139,
+              "text": "19 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 140,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 141,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 142,
+              "text": "middleware",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 143,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 144,
+              "text": "'auth'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 145,
+              "text": ");",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 146,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 147,
+              "text": "20 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 148,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 149,
+              "text": "21 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 150,
+              "text": "Route",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 151,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 152,
+              "text": "get",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 153,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 154,
+              "text": "'/dashboard'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 155,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 156,
+              "text": " ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 157,
+              "text": "[",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 158,
+              "text": "DashboardController",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 159,
+              "text": "::",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 160,
+              "text": "class",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 161,
+              "text": ",",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 162,
+              "text": " 'index'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 163,
+              "text": "])",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 164,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 165,
+              "text": "22 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 166,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 167,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 168,
+              "text": "name",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 169,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 170,
+              "text": "'dashboard'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 171,
+              "text": ")",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 172,
+              "text": "\n",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 173,
+              "text": "23 ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 174,
+              "text": "    ",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 175,
+              "text": "->",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 176,
+              "text": "middleware",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 177,
+              "text": "(",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 178,
+              "text": "'auth'",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 179,
+              "text": ");",
+              "fontSize": 11.07,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1233.6,
+        683.52,
+        83.99,
+        31.5
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 10.67,
+      "resolvedTextStyle": {
+        "fontSize": 10.67,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

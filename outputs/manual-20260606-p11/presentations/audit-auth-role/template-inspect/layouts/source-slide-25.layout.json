@@ -1,0 +1,1278 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/61032lsz",
+    "id": "61032lsz",
+    "slide": 26,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "MASTER",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Aptos Display"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display",
+      "Cascadia Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "MASTER",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#F8FAFC",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Shape 0",
+          "bbox": [
+            52.8,
+            676.8,
+            1176,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#CBD5E1",
+          "lineWidth": 1.33
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Text 1",
+          "bbox": [
+            52.8,
+            683.52,
+            768,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "textPreview": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+              "marginLeft": 0,
+              "indent": 0,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Text 2",
+          "bbox": [
+            1032,
+            683.52,
+            196.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "STMIK Antar Bangsa",
+          "textPreview": "STMIK Antar Bangsa",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "STMIK Antar Bangsa",
+              "marginLeft": 0,
+              "indent": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "STMIK Antar Bangsa",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        1279.97,
+        17.28
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#2563EB",
+      "lineColor": "#2563EB",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        59.52,
+        36.48,
+        921.6,
+        40.32
+      ],
+      "geometry": "rect",
+      "text": "Menu Dinamis Lanjutan",
+      "textPreview": "Menu Dinamis Lanjutan",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Menu Dinamis Lanjutan"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Menu Dinamis Lanjutan",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Menu Dinamis Lanjutan",
+              "fontSize": 33.33,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        61.44,
+        82.56,
+        940.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "Tampilkan nama user dan tombol logout.",
+      "textPreview": "Tampilkan nama user dan tombol logout.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tampilkan nama user dan tombol logout."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tampilkan nama user dan tombol logout.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tampilkan nama user dan tombol logout.",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        59.52,
+        117.12,
+        1156.8,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        81.6,
+        148.8,
+        1123.2,
+        230.4
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#111827",
+      "lineColor": "#1F2937",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        160.32,
+        1098.24,
+        207.36
+      ],
+      "geometry": "rect",
+      "text": " 1 </div>\n 2         <span class=\"navbar-text text-white me-3\">\n 3             {{ auth()->user()->name }} | {{ auth()->user()->role }}\n 4         </span>\n 5         <form method=\"POST\" action=\"{{ route('logout') }}\">\n 6             @csrf\n 7             <button class=\"btn btn-light btn-sm\">Logout</button>\n 8         </form>\n 9     </div>\n10 </nav>\n11 @endauth",
+      "textPreview": "1 </div> |  2         <span class=\"navbar-text text-white me-3\"> |  3             {{ auth()->user()->name }} | {{ auth()->user()->role }}...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0.03,
+          "right": 0.03,
+          "bottom": 0.03,
+          "left": 0.03
+        }
+      },
+      "textLayout": {
+        "lineCount": 11,
+        "lines": [
+          {
+            "index": 1,
+            "text": " 1 </div>"
+          },
+          {
+            "index": 2,
+            "text": " 2         <span class=\"navbar-text text-white me-3\">"
+          },
+          {
+            "index": 3,
+            "text": " 3             {{ auth()->user()->name }} | {{ auth()->user()->role }}"
+          },
+          {
+            "index": 4,
+            "text": " 4         </span>"
+          },
+          {
+            "index": 5,
+            "text": " 5         <form method=\"POST\" action=\"{{ route('logout') }}\">"
+          },
+          {
+            "index": 6,
+            "text": " 6             @csrf"
+          },
+          {
+            "index": 7,
+            "text": " 7             <button class=\"btn btn-light btn-sm\">Logout</button>"
+          },
+          {
+            "index": 8,
+            "text": " 8         </form>"
+          },
+          {
+            "index": 9,
+            "text": " 9     </div>"
+          },
+          {
+            "index": 10,
+            "text": "10 </nav>"
+          },
+          {
+            "index": 11,
+            "text": "11 @endauth"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " 1 </div>\n 2         <span class=\"navbar-text text-white me-3\">\n 3             {{ auth()->user()->name }} | {{ auth()->user()->role }}\n 4         </span>\n 5         <form method=\"POST\" action=\"{{ route('logout') }}\">\n 6             @csrf\n 7             <button class=\"btn btn-light btn-sm\">Logout</button>\n 8         </form>\n 9     </div>\n10 </nav>\n11 @endauth",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": " 1 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 2,
+              "text": "</",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 3,
+              "text": "div",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 4,
+              "text": ">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 5,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 6,
+              "text": " 2 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 7,
+              "text": "        ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 8,
+              "text": "<",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 9,
+              "text": "span class",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 10,
+              "text": "=\"",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 11,
+              "text": "navbar-text text-white me-3",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 12,
+              "text": "\">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 13,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 14,
+              "text": " 3 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 15,
+              "text": "            {{ auth()->user()->name }} | {{ auth()->user()->role }}\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 16,
+              "text": " 4 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 17,
+              "text": "        ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 18,
+              "text": "</",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 19,
+              "text": "span",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 20,
+              "text": ">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 21,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 22,
+              "text": " 5 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 23,
+              "text": "        ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 24,
+              "text": "<",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 25,
+              "text": "form method",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 26,
+              "text": "=\"",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 27,
+              "text": "POST",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 28,
+              "text": "\"",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 29,
+              "text": " action",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 30,
+              "text": "=\"",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 31,
+              "text": "{{ route('logout') }}",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 32,
+              "text": "\">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 33,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 34,
+              "text": " 6 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 35,
+              "text": "            @csrf\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 36,
+              "text": " 7 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 37,
+              "text": "            ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 38,
+              "text": "<",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 39,
+              "text": "button class",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 40,
+              "text": "=\"",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 41,
+              "text": "btn btn-light btn-sm",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 42,
+              "text": "\">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 43,
+              "text": "Logout",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 44,
+              "text": "</",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 45,
+              "text": "button",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 46,
+              "text": ">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 47,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 48,
+              "text": " 8 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 49,
+              "text": "        ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 50,
+              "text": "</",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 51,
+              "text": "form",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 52,
+              "text": ">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 53,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 54,
+              "text": " 9 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 55,
+              "text": "    ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 56,
+              "text": "</",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 57,
+              "text": "div",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 58,
+              "text": ">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 59,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 60,
+              "text": "10 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 61,
+              "text": "</",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 62,
+              "text": "nav",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 63,
+              "text": ">",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 64,
+              "text": "\n",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 65,
+              "text": "11 ",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 66,
+              "text": "@endauth",
+              "fontSize": 18,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "8",
+      "name": "Shape 6",
+      "bbox": [
+        100.8,
+        432,
+        1080,
+        100.8
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "9",
+      "name": "Shape 7",
+      "bbox": [
+        100.8,
+        432,
+        7.68,
+        100.8
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#EF4444",
+      "lineColor": "#EF4444",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        121.92,
+        449.28,
+        1046.4,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Catatan",
+      "textPreview": "Catatan",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Catatan"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Catatan",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Catatan",
+              "fontSize": 18.67,
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yd0z6103",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        121.92,
+        484.8,
+        1046.4,
+        33.6
+      ],
+      "geometry": "rect",
+      "text": "Menu dinamis memperbaiki tampilan, tetapi keamanan tetap harus memakai middleware di route. Jangan hanya mengandalkan hidden menu.",
+      "textPreview": "Menu dinamis memperbaiki tampilan, tetapi keamanan tetap harus memakai middleware di route. Jangan hanya mengandalkan hidden menu.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0.04,
+          "right": 0.04,
+          "bottom": 0.04,
+          "left": 0.04
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Menu dinamis memperbaiki tampilan, tetapi keamanan tetap harus memakai middleware di route. Jangan hanya mengandalkan hidden menu."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Menu dinamis memperbaiki tampilan, tetapi keamanan tetap harus memakai middleware di route. Jangan hanya mengandalkan hidden menu.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Menu dinamis memperbaiki tampilan, tetapi keamanan tetap harus memakai middleware di route. Jangan hanya mengandalkan hidden menu.",
+              "fontSize": 15.07,
+              "color": "#334155"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1233.6,
+        683.52,
+        83.99,
+        31.5
+      ],
+      "geometry": "rect",
+      "text": "25",
+      "textPreview": "25",
+      "resolvedFontSize": 10.67,
+      "resolvedTextStyle": {
+        "fontSize": 10.67,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "25"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "25",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "25"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

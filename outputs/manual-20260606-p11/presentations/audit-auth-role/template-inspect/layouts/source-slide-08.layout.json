@@ -1,0 +1,1828 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fu18jqh0",
+    "id": "fu18jqh0",
+    "slide": 9,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "MASTER",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Aptos Display"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display",
+      "Cascadia Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "MASTER",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "backgroundColor": "#F8FAFC",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Shape 0",
+          "bbox": [
+            52.8,
+            676.8,
+            1176,
+            0
+          ],
+          "geometry": "line",
+          "lineColor": "#CBD5E1",
+          "lineWidth": 1.33
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/3",
+          "id": "3",
+          "name": "Text 1",
+          "bbox": [
+            52.8,
+            683.52,
+            768,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "textPreview": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+              "marginLeft": 0,
+              "indent": 0,
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Pemrograman Web Lanjut • Laravel 13 • Dosen: Amirudin",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Text 2",
+          "bbox": [
+            1032,
+            683.52,
+            196.8,
+            21.12
+          ],
+          "geometry": "rect",
+          "text": "STMIK Antar Bangsa",
+          "textPreview": "STMIK Antar Bangsa",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "verticalAlignment": "middle",
+            "wrap": "square"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "STMIK Antar Bangsa",
+              "marginLeft": 0,
+              "indent": 0,
+              "resolvedTextStyle": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "STMIK Antar Bangsa",
+                  "fontSize": 10.67,
+                  "typeface": "Aptos",
+                  "color": "#64748B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/25",
+          "id": "25",
+          "name": "Slide Number Placeholder 0",
+          "bbox": [
+            1233.6,
+            683.52,
+            83.99,
+            31.5
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9knih4b",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        1279.97,
+        17.28
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#2563EB",
+      "lineColor": "#2563EB",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        59.52,
+        36.48,
+        921.6,
+        40.32
+      ],
+      "geometry": "rect",
+      "text": "Migration: Tambah Role pada Users",
+      "textPreview": "Migration: Tambah Role pada Users",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Migration: Tambah Role pada Users"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Migration: Tambah Role pada Users",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Migration: Tambah Role pada Users",
+              "fontSize": 33.33,
+              "typeface": "Aptos Display",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7u54zid",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        61.44,
+        82.56,
+        940.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "Tambahkan role dan relasi opsional ke mahasiswa.",
+      "textPreview": "Tambahkan role dan relasi opsional ke mahasiswa.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tambahkan role dan relasi opsional ke mahasiswa."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tambahkan role dan relasi opsional ke mahasiswa.",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tambahkan role dan relasi opsional ke mahasiswa.",
+              "fontSize": 14,
+              "color": "#64748B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1orytsvu",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        59.52,
+        117.12,
+        1156.8,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u18jqh0f",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        81.6,
+        129.6,
+        1123.2,
+        523.2
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#111827",
+      "lineColor": "#1F2937",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        141.12,
+        1098.24,
+        500.16
+      ],
+      "geometry": "rect",
+      "text": " 1 use IlluminateDatabaseMigrationsMigration;\n 2 use IlluminateDatabaseSchemaBlueprint;\n 3 use IlluminateSupportFacadesSchema;\n 4 \n 5 return new class extends Migration {\n 6     public function up(): void\n 7     {\n 8         Schema::table('users', function (Blueprint $table) {\n 9             $table->string('role')->default('mahasiswa')->after('password');\n10             $table->foreignId('mahasiswa_id')->nullable()\n11                 ->after('role')->constrained('mahasiswa')\n12                 ->nullOnDelete();\n13         });\n14     }\n15 \n16     public function down(): void\n17     {\n18         Schema::table('users', function (Blueprint $table) {\n19             $table->dropConstrainedForeignId('mahasiswa_id');\n20             $table->dropColumn('role');\n21         });\n22     }\n23 };",
+      "textPreview": "1 use IlluminateDatabaseMigrationsMigration; |  2 use IlluminateDatabaseSchemaBlueprint; |  3 use IlluminateSupportFacadesSchema; |  4  |...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0.03,
+          "right": 0.03,
+          "bottom": 0.03,
+          "left": 0.03
+        }
+      },
+      "textLayout": {
+        "lineCount": 23,
+        "lines": [
+          {
+            "index": 1,
+            "text": " 1 use IlluminateDatabaseMigrationsMigration;"
+          },
+          {
+            "index": 2,
+            "text": " 2 use IlluminateDatabaseSchemaBlueprint;"
+          },
+          {
+            "index": 3,
+            "text": " 3 use IlluminateSupportFacadesSchema;"
+          },
+          {
+            "index": 4,
+            "text": " 4"
+          },
+          {
+            "index": 5,
+            "text": " 5 return new class extends Migration {"
+          },
+          {
+            "index": 6,
+            "text": " 6     public function up(): void"
+          },
+          {
+            "index": 7,
+            "text": " 7     {"
+          },
+          {
+            "index": 8,
+            "text": " 8         Schema::table('users', function (Blueprint $table) {"
+          },
+          {
+            "index": 9,
+            "text": " 9             $table->string('role')->default('mahasiswa')->after('password');"
+          },
+          {
+            "index": 10,
+            "text": "10             $table->foreignId('mahasiswa_id')->nullable()"
+          },
+          {
+            "index": 11,
+            "text": "11                 ->after('role')->constrained('mahasiswa')"
+          },
+          {
+            "index": 12,
+            "text": "12                 ->nullOnDelete();"
+          },
+          {
+            "index": 13,
+            "text": "13         });"
+          },
+          {
+            "index": 14,
+            "text": "14     }"
+          },
+          {
+            "index": 15,
+            "text": "15"
+          },
+          {
+            "index": 16,
+            "text": "16     public function down(): void"
+          },
+          {
+            "index": 17,
+            "text": "17     {"
+          },
+          {
+            "index": 18,
+            "text": "18         Schema::table('users', function (Blueprint $table) {"
+          },
+          {
+            "index": 19,
+            "text": "19             $table->dropConstrainedForeignId('mahasiswa_id');"
+          },
+          {
+            "index": 20,
+            "text": "20             $table->dropColumn('role');"
+          },
+          {
+            "index": 21,
+            "text": "21         });"
+          },
+          {
+            "index": 22,
+            "text": "22     }"
+          },
+          {
+            "index": 23,
+            "text": "23 };"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " 1 use IlluminateDatabaseMigrationsMigration;\n 2 use IlluminateDatabaseSchemaBlueprint;\n 3 use IlluminateSupportFacadesSchema;\n 4 \n 5 return new class extends Migration {\n 6     public function up(): void\n 7     {\n 8         Schema::table('users', function (Blueprint $table) {\n 9             $table->string('role')->default('mahasiswa')->after('password');\n10             $table->foreignId('mahasiswa_id')->nullable()\n11                 ->after('role')->constrained('mahasiswa')\n12                 ->nullOnDelete();\n13         });\n14     }\n15 \n16     public function down(): void\n17     {\n18         Schema::table('users', function (Blueprint $table) {\n19             $table->dropConstrainedForeignId('mahasiswa_id');\n20             $table->dropColumn('role');\n21         });\n22     }\n23 };",
+          "marginLeft": 0,
+          "indent": 0,
+          "runs": [
+            {
+              "index": 1,
+              "text": " 1 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 2,
+              "text": "use",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 3,
+              "text": " IlluminateDatabaseMigrationsMigration",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 4,
+              "text": ";",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 5,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 6,
+              "text": " 2 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 7,
+              "text": "use",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 8,
+              "text": " IlluminateDatabaseSchemaBlueprint",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 9,
+              "text": ";",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 10,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 11,
+              "text": " 3 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 12,
+              "text": "use",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 13,
+              "text": " IlluminateSupportFacadesSchema",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 14,
+              "text": ";",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 15,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 16,
+              "text": " 4 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 17,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 18,
+              "text": " 5 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 19,
+              "text": "return",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 20,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 21,
+              "text": "new",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 22,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 23,
+              "text": "class",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 24,
+              "text": " extends Migration ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 25,
+              "text": "{",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 26,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 27,
+              "text": " 6 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 28,
+              "text": "    ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 29,
+              "text": "public",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 30,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 31,
+              "text": "function",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 32,
+              "text": " up",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 33,
+              "text": "():",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 34,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 35,
+              "text": "void",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 36,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 37,
+              "text": " 7 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 38,
+              "text": "    ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 39,
+              "text": "{",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 40,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 41,
+              "text": " 8 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 42,
+              "text": "        Schema",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 43,
+              "text": "::",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 44,
+              "text": "table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 45,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 46,
+              "text": "'users'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 47,
+              "text": ",",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 48,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 49,
+              "text": "function",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 50,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 51,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 52,
+              "text": "Blueprint $table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 53,
+              "text": ")",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 54,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 55,
+              "text": "{",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 56,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 57,
+              "text": " 9 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 58,
+              "text": "            $table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 59,
+              "text": "->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 60,
+              "text": "string",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 61,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 62,
+              "text": "'role'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 63,
+              "text": ")->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 64,
+              "text": "default",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 65,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 66,
+              "text": "'mahasiswa'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 67,
+              "text": ")->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 68,
+              "text": "after",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 69,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 70,
+              "text": "'password'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 71,
+              "text": ");",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 72,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 73,
+              "text": "10 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 74,
+              "text": "            $table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 75,
+              "text": "->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 76,
+              "text": "foreignId",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 77,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 78,
+              "text": "'mahasiswa_id'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 79,
+              "text": ")->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 80,
+              "text": "nullable",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 81,
+              "text": "()",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 82,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 83,
+              "text": "11 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 84,
+              "text": "                ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 85,
+              "text": "->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 86,
+              "text": "after",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 87,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 88,
+              "text": "'role'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 89,
+              "text": ")->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 90,
+              "text": "constrained",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 91,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 92,
+              "text": "'mahasiswa'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 93,
+              "text": ")",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 94,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 95,
+              "text": "12 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 96,
+              "text": "                ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 97,
+              "text": "->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 98,
+              "text": "nullOnDelete",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 99,
+              "text": "();",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 100,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 101,
+              "text": "13 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 102,
+              "text": "        ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 103,
+              "text": "});",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 104,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 105,
+              "text": "14 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 106,
+              "text": "    ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 107,
+              "text": "}",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 108,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 109,
+              "text": "15 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 110,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 111,
+              "text": "16 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 112,
+              "text": "    ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 113,
+              "text": "public",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 114,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 115,
+              "text": "function",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 116,
+              "text": " down",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 117,
+              "text": "():",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 118,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 119,
+              "text": "void",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 120,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 121,
+              "text": "17 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 122,
+              "text": "    ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 123,
+              "text": "{",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 124,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 125,
+              "text": "18 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 126,
+              "text": "        Schema",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 127,
+              "text": "::",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 128,
+              "text": "table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 129,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 130,
+              "text": "'users'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 131,
+              "text": ",",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 132,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 133,
+              "text": "function",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#66D9EF"
+            },
+            {
+              "index": 134,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 135,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 136,
+              "text": "Blueprint $table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 137,
+              "text": ")",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 138,
+              "text": " ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 139,
+              "text": "{",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 140,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 141,
+              "text": "19 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 142,
+              "text": "            $table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 143,
+              "text": "->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 144,
+              "text": "dropConstrainedForeignId",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 145,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 146,
+              "text": "'mahasiswa_id'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 147,
+              "text": ");",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 148,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 149,
+              "text": "20 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 150,
+              "text": "            $table",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 151,
+              "text": "->",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 152,
+              "text": "dropColumn",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 153,
+              "text": "(",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 154,
+              "text": "'role'",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 155,
+              "text": ");",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 156,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 157,
+              "text": "21 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 158,
+              "text": "        ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 159,
+              "text": "});",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 160,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 161,
+              "text": "22 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 162,
+              "text": "    ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 163,
+              "text": "}",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            },
+            {
+              "index": 164,
+              "text": "\n",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#FFFFFF"
+            },
+            {
+              "index": 165,
+              "text": "23 ",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#8292A2"
+            },
+            {
+              "index": 166,
+              "text": "};",
+              "fontSize": 11.47,
+              "typeface": "Cascadia Mono",
+              "color": "#F8F8F2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "25",
+      "name": "Slide Number Placeholder 0",
+      "bbox": [
+        1233.6,
+        683.52,
+        83.99,
+        31.5
+      ],
+      "geometry": "rect",
+      "text": "8",
+      "textPreview": "8",
+      "resolvedFontSize": 10.67,
+      "resolvedTextStyle": {
+        "fontSize": 10.67,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "8"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "8",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}
